@@ -1,0 +1,13 @@
+.video__play-border {
+  box-sizing: border-box;
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  cursor: pointer;
+  position: relative;
+}
+
+.video__play-border:hover > .video__play {
+  transform: translateY(-50%) scale(1.4);
+}

@@ -1,0 +1,29 @@
+.comments__items {
+  margin: 83px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+  gap: 19px;
+}
+
+@media (max-width: 1023px) {
+  .comments__items {
+    margin-top: 58px;
+    grid-template-columns: minmax(288px, 382px);
+    gap: 58px;
+  }
+}
+
+@media (max-width: 767px) {
+  .comments__items {
+    margin-top: 46px;
+    gap: 71px;
+  }
+}
+
+@media (max-width: 374px) {
+  .comments__items {
+    margin-top: 34px;
+    gap: 59px;
+  }
+}

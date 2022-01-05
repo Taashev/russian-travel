@@ -1,0 +1,19 @@
+.map__signature {
+  text-align: start;
+  font-size: 10px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+@media (max-width: 1023px) {
+  .map__signature {
+    margin-left: 24px;
+  }
+}
+
+@media (max-width: 424px) {
+  .map__signature {
+    margin-left: 16px;
+  }
+}

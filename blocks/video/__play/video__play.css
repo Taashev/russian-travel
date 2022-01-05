@@ -1,0 +1,11 @@
+.video__play {
+  width: 14px;
+  height: 16px;
+  clip-path: polygon(100% 50%, 0 0, 0 100%);
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 13px;
+  transform: translateY(-50%);
+  transition: .3s;
+}

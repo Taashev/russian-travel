@@ -1,0 +1,15 @@
+.footer__menu-items {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+@media (max-width: 767px) {
+  .footer__menu-items {
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 37px;
+  }
+}

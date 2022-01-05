@@ -1,0 +1,35 @@
+.video__items {
+  margin: 62px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(288px, 1fr));
+  justify-content: center;
+  gap: 18px;
+  position: relative;
+  z-index: 0;
+}
+
+@media (max-width: 1279px) {
+  .video__items {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .video__items {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .video__items {
+    grid-template-columns: minmax(288px, 500px);
+  }
+}
+
+@media (max-width: 424px) {
+  .video__items {
+    margin-top: 39px;
+    gap: 8px;
+  }
+}

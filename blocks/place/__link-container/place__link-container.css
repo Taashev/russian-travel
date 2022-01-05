@@ -1,0 +1,9 @@
+.place__link-container {
+  align-self: end;
+}
+@media (max-width: 424px) {
+  .place__link-container {
+    padding: 0 16px;
+    display: none;
+  }
+}

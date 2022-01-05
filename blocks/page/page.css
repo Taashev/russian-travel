@@ -1,0 +1,21 @@
+.page {
+  /* Контейнер */
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1280px;
+  min-width: 320px;
+  margin: 0 auto;
+  /* Основные настройки страницы */
+  color: #fff;
+  background: #2A2C2F;
+  /* Настрока шрифтов страницы */
+  font-size: 16px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* ============================================= */

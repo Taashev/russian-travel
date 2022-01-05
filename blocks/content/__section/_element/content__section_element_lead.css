@@ -1,0 +1,9 @@
+.content__section_element_lead {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 424px) {
+  .content__section_element_lead {
+    margin-bottom: 64px;
+  }
+}

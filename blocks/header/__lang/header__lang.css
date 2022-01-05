@@ -1,0 +1,12 @@
+.header__lang {
+  font-size: 24px;
+  line-height: 1.16;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .header__lang {
+    font-size: 18px;
+    line-height: 1.55;
+  }
+}

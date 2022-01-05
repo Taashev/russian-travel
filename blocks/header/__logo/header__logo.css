@@ -1,0 +1,12 @@
+.header__logo {
+  display: inline-block;
+  width: 176px;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .header__logo {
+    width: 142px;
+  }
+}

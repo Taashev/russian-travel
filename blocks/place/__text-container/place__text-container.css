@@ -1,0 +1,16 @@
+.place__text-container {
+  grid-row: 2/-1;
+  grid-column: 2/3;
+}
+
+@media (max-width: 767px) {
+  .place__text-container {
+    grid-row: auto/auto;
+    grid-column: auto/auto;
+  }
+}
+@media (max-width: 424px) {
+  .place__text-container {
+    padding: 0 16px;
+  }
+}

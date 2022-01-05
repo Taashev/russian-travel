@@ -1,0 +1,13 @@
+.intro__list-item {
+  list-style: none;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .intro__list-item {
+    line-height: 1.6;
+    font-size: 12px;
+  }
+}

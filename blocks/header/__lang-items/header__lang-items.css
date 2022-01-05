@@ -1,0 +1,7 @@
+.header__lang-items {
+  margin: 0;
+  padding: 0 0 4px;
+  align-self: flex-end;
+  display: flex;
+  gap: 18px;
+}

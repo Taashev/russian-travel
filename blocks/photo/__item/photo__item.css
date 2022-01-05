@@ -1,0 +1,17 @@
+.photo__item {
+  list-style: none;
+  position: relative;
+  padding-bottom: 66%;
+}
+
+@media (max-width: 424px) {
+  .photo__item {
+    padding-bottom: 68%;
+  }
+}
+
+@media (max-width: 374px) {
+  .photo__item {
+    padding-bottom: 67%;
+  }
+}
