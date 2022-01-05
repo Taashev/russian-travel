@@ -2,7 +2,7 @@
 --------------------------------------------------
 **Интро**
 
-Усложненный макет первой [версии](https://taashev.github.io/russian-travel/)
+Усложненный макет первой [версии](https://github.com/Taashev/russian-travel)
 
 --------------------------------------------------
 **При создании сайта использовались технологии:**
@@ -27,4 +27,4 @@
 
 * [Ссылка на макет в Figma](https://www.figma.com/file/5PEoxONEq3Vtr9qQa8jwYD/Russia-%2F-desktop-%2B-mobile-(Copy)?node-id=0%3A1)
 
-* [Проект](https://taashev.github.io/russian-travel_pro/)
+* [Проект версия 2](https://taashev.github.io/russian-travel_pro/)
